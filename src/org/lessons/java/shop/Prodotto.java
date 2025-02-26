@@ -22,12 +22,12 @@ public Prodotto(String name, String description, double basePrice) {
     this.taxPercentage = 22;
 }
 
-public double getBasePrice() {
-    return this.basePrice;
+public String getBasePrice() {
+    return String.format("%.2f", this.basePrice);
 }
 
-public double getFullPrice() {
-    return this.basePrice + (this.basePrice * this.taxPercentage / 100);
+public String getFullPrice() {
+    return String.format("%.2f", this.basePrice + (this.basePrice * this.taxPercentage / 100));
 }
 
 public String getFullName(){

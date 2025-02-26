@@ -6,11 +6,12 @@ public static void main(String[] args) {
     Prodotto prodotto2 = new Prodotto("Petzl Quark Martello", "Piccozza da alpinismo tecnico e ghiaccio", 180);
 
     System.out.println(prodotto1.getFullName());
-    System.out.println(String.format("%.2f", prodotto1.getBasePrice()));
-    System.out.println(String.format("%.2f", prodotto1.getFullPrice()));
+    System.out.println(prodotto1.getBasePrice());
+    System.out.println(prodotto1.getFullPrice());
+    
 
     System.out.println(prodotto2.getFullName());
-    System.out.println(String.format("%.2f", prodotto2.getBasePrice()));
-    System.out.println(String.format("%.2f", prodotto2.getFullPrice()));
+    System.out.println(prodotto2.getBasePrice());
+    System.out.println(prodotto2.getFullPrice());
 }
 }
