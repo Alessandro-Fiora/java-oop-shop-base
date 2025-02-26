@@ -30,5 +30,9 @@ public double getFullPrice() {
     return this.basePrice + (this.basePrice * this.taxPercentage / 100);
 }
 
+public String getFullName(){
+    return this.code + "-" + this.name;
+}
+
 }
 
