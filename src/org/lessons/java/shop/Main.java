@@ -14,6 +14,9 @@ public static void main(String[] args) {
     
 
     System.out.println(prodottoVuoto.getFullName());
+    prodottoVuoto.setName("Maglietta La Sportiva");
+    prodottoVuoto.setBasePrice(15);
+    System.out.println(prodottoVuoto.getFullName());
     System.out.println(prodottoVuoto.getBasePrice());
     System.out.println(prodottoVuoto.getFullPrice());
 }
